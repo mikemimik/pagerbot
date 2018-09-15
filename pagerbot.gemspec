@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'configatron'
   spec.add_dependency 'eventmachine' # Used by slack-ruby-client
   spec.add_dependency 'faye-websocket' # Used by slack-ruby-client
-  spec.add_dependency 'mailgun-ruby', '1.1.2'
+  spec.add_dependency 'mailgun-ruby'
   spec.add_dependency 'method_decorators'
   spec.add_dependency 'mongo', '> 2.0'
   spec.add_dependency 'rest-client'
@@ -35,7 +35,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'slack-ruby-client'
   spec.add_dependency 'thin'
 
-  spec.add_development_dependency 'minitest', '< 5.0'
+  spec.add_development_dependency 'minitest'
   spec.add_development_dependency 'minitest-reporters'
   spec.add_development_dependency 'mocha'
   spec.add_development_dependency 'dotenv'
