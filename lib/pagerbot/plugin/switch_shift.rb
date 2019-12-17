@@ -68,7 +68,7 @@ module PagerBot::Plugins
     # }
     def when_oncall(person_id, schedule_id, range_start, range_end, asker)
       entries = pagerduty.get(
-        "/schedules/#{schedule_id}/entries",
+        "/schedules/#{schedule_id}",
         params: {
           since: range_start.iso8601,
           until: range_end.iso8601,
