@@ -54,7 +54,7 @@ module PagerBot
 
     +PagerBot::Utilities::DispatchMethod
     def hello(query, event_data={})
-      "Hello, #{event_data[:nick]}"
+      "Hello, #{event_data[:nick]} - my npm friend!"
     end
 
     # because who doesn't like one-liners. Feel free to refactor!
