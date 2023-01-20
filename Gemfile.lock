@@ -22,11 +22,11 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.2.1)
+    activesupport (7.0.4.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (>= 0.7, < 2)
-      minitest (~> 5.1)
-      tzinfo (~> 1.1)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
     ansi (1.5.0)
     bson (4.3.0)
     bson_ext (1.5.1)
@@ -38,7 +38,7 @@ GEM
       numerizer (~> 0.1.1)
     cinch (2.3.4)
     coderay (1.1.2)
-    concurrent-ruby (1.0.5)
+    concurrent-ruby (1.1.10)
     configatron (4.5.1)
     daemons (1.2.6)
     domain_name (0.5.20180417)
@@ -58,7 +58,7 @@ GEM
     hitimes (1.3.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    i18n (1.1.0)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     listen (2.10.1)
       celluloid (~> 0.16.0)
@@ -121,12 +121,11 @@ GEM
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0, >= 1.0.4)
       rack (>= 1, < 3)
-    thread_safe (0.3.6)
     tilt (2.0.8)
     timers (4.0.4)
       hitimes
-    tzinfo (1.2.5)
-      thread_safe (~> 0.1)
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.5)
